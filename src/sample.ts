@@ -25,10 +25,10 @@ let bb: string[] = [1, 2];
 interface Hoge1 {
   a: number,
   b: number,
-  // ....
+  c: string,
 };
 
-let v1: Hoge1 = {a: 10, b: 20};
+let v1: Hoge1 = {a: 10, b: 20, c: 'test'};
 
 // undefined
 // aは値が入るが、bに値が入って来ない
