@@ -38,7 +38,7 @@ interface Hoge2 {
   // ....
 };
 
-let v2: Hoge2 = {a: 10};
+let v2: Hoge2 = {a: 10, b: 20};
 
 // nullable
 interface Hoge3 {
